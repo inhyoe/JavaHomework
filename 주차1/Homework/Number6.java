@@ -13,8 +13,6 @@ public class Number6 {
         System.out.print("정수 : ");
         Number = scan.nextInt();
         
-
-        
         // String four1 = String.valueOf(four);
 
         if(Number<=1){
