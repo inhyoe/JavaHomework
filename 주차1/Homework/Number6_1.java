@@ -1,4 +1,4 @@
-package JavaHomework.주차1.Homework;
+package 주차1.Homework;
 import java.util.Scanner;
 
 
@@ -21,3 +21,4 @@ public class Number6_1 {
         num.turn(number);
     }
 }
+// 문자열에 숫자를 넣을 수 있다 

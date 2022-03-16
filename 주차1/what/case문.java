@@ -1,4 +1,4 @@
-package JavaHomework.주차1.what;
+package 주차1.what;
 import java.util.Scanner;
 public class case문 {
     public static void main(String[] args) {

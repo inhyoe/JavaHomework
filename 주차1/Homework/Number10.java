@@ -1,4 +1,4 @@
-package JavaHomework.주차1.Homework;
+package 주차1.Homework;
 
 import java.util.Scanner;
 public class Number10 {
