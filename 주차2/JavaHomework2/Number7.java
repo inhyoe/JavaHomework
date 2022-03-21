@@ -12,10 +12,10 @@ public class Number7 {
                 //홀수
                 pie += up/j;
                 System.out.println(i+"번째 ="+pie);
-            }else
+            }else{
                 pie -= up/j;
                 System.out.println(i+"번째 ="+pie);
-            
+            }
             oddOrEven++;
             j =j+2;
         }
