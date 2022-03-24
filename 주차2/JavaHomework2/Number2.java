@@ -10,6 +10,7 @@ public class Number2 {
                     x = false;
             if(x == true)
             System.out.print(i+" ");
+            
         }
     }
 }

@@ -12,11 +12,10 @@ public class number6 {
         // 과정 -> 약수를 먼저 구한 후 . 반복문을 돌면서
 
         System.out.print("소인수 분해 값은");
-        for (int i = 2; i <= a; i++) {
+        for (int i = 2; i <= a; i++) 
             while (a % i == 0) {
                 System.out.print(i + " ");
                 a = a / i;
-            }
-        }
+                }
     }
 }
