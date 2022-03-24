@@ -8,11 +8,11 @@ public class Number5 {
     public static void main(String[] args) {
         int count = 0;
         for (int j = 1; j <= 10000; j++) {
-            if (j % 10 == 8) {
-                if (j / 10 == 8) {
-                    count += 1;
+            for(int i= j ; i>0; i /= 10){
+                if( i%10 == 8){
+                    count++;
+                    System.out.println(i);
                 }
-                count += 1;
             }
         }
         System.out.println(count);
