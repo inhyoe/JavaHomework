@@ -10,7 +10,7 @@ public class Number6_1 {
         System.out.print("자연수를 입력해주세요 :");
         Scanner scan = new Scanner(System.in);
         a = scan.nextInt();
-
+        System.out.print("소인수는 : ");
         for( int i =1; i<=a; i++)
             if(a%i == 0){ 
                 
@@ -19,7 +19,7 @@ public class Number6_1 {
                 //         divisor +=1;
                 divisor +=findDivisor(i);
                 if(divisor == 2)
-                    System.out.println("소인수는"+i);
+                    System.out.print(i+" ");
                 
                 divisor =0;
             }
