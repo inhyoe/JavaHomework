@@ -11,7 +11,6 @@ public class Number5 {
             for(int i= j ; i>0; i /= 10){
                 if( i%10 == 8){
                     count++;
-                    System.out.println(i);
                 }
             }
         }
