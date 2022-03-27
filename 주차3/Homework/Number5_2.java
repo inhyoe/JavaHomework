@@ -6,10 +6,11 @@ public class Number5_2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
-        String upperInput = input.toUpperCase();
+        String upperInput = input.toUpperCase(); // 대소문자 구별 삭제
         int x = 0;
         if (check(upperInput, upperInput.length() - 1, x) == 1) {
-            System.out.println(true);
+            System.out.println(true); // 1번째 = 대입할 문자 2번째 대입할 맨 뒷 문자 3번째 대입할 맨 앞 문자
+            // 만일 true라면 true출력
         } else {
             System.out.println(false);
         }
@@ -18,13 +19,14 @@ public class Number5_2 {
 
     static int check(String letter, int n, int y) {
         if (letter.charAt(n) == letter.charAt(y)) {
+            // 맨 처음 문자~ 맨 마지막 문자 비교
             if (n == 0) {
                 return 1;
             }
 
-            return check(letter, n - 1, y + 1);
+            return check(letter, n - 1, y + 1); // 재귀한다.
         } else {
-            return -1;
+            return -1; // 아니라면 false리턴
         }
     }
 }

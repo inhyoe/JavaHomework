@@ -2,34 +2,31 @@ package 주차3.Homework;
 
 public class Number1 {
     public static void main(String[] args) {
-        int big = 0;
+        int max = 0;
         for(int i =900; i<=1000; i++){
-            for(int j = 900; j<=1000; j++){
-            if(search(i)>search(j)){
-                big = search(i);
-                
-            }else{
-                big = search(j);
+            if(search(i)>max){
+                max = search(i);
             }
+            }
+        System.out.println(max);
+        // 무식하게 하나하나 하지말고 값을 넣어서 비교하자.
         }
-    }
     
-    System.out.println(big);
-    }
-
+    
     static int search(int n){
-        int a =0;
-        while(n != 1){
+        int a =1;
+        while(n > 1){
         if(n%2 == 0){
             n = n/2;
             a++;
         }
         else if(n%2 != 0){
             n = n*3+1;
-            a++;}
+            a++;
         }
-        return a+1;
-        
+        }
+        return a;
     }
-
+    
 }
+
