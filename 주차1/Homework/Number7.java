@@ -1,4 +1,5 @@
-package JavaHomework.주차1.Homework;
+package 
+주차1.Homework;
 
 import java.util.Scanner;
 
@@ -7,10 +8,50 @@ public class Number7 {
         System.out.print("정수를 입력하시오 : ");
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
+
         System.out.print("정수를 입력하시오 : ");
         int b = scan.nextInt();
+
         System.out.print("정수를 입력하시오 : ");
         int c = scan.nextInt();
+
+        int temp;
+        if(a>b){
+            temp = a;
+            a = b;
+            b = temp;
+        }
+
+        if(b>c){
+            temp = b;
+            b = c;
+            c = temp;
+        }
+        if(a>b){
+            temp = a;
+            a = b;
+            b = temp;
+        }
+        System.out.printf("%d>%d>%d",a,b,c);
+        
+        if(a > b){
+            if(a>c)
+                if(b>c)
+                System.out.printf("%d>%d>%d",a,b,c);
+                else
+                    System.out.printf("%d>%d>%d",a,c,b);
+                    System.out.printf("%d>%d>%d",c,a,b);
+        }else{
+            if(b>c)
+                if(a>c)
+                System.out.printf("%d>%d>%d",b,a,c);
+                else
+                System.out.printf("%d>%d>%d",b,c,a);
+            else
+            System.out.printf("%d>%d>%d",c,b,a);
+        }
+
+
         if( a > b && b > c ){
             System.out.println("정렬된 숫자 :"+c+""+b+""+a);
         }else if(a > c && c > b){

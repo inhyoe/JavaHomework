@@ -1,4 +1,4 @@
-package JavaHomework.주차1.Homework;
+package 주차1.Homework;
 
 public class Number2 {
     public static void main(String[] args) {
