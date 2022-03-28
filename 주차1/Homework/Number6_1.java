@@ -1,4 +1,6 @@
-package 주차1.Homework;
+
+package JavaHomework.주차1.Homework;
+
 import java.util.Scanner;
 
 
@@ -22,3 +24,4 @@ public class Number6_1 {
     }
 }
 // 문자열에 숫자를 넣을 수 있다 
+>>>>>>> c000fc3bf1967f35546dbe314204f9eb182926f8

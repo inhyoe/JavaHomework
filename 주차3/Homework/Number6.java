@@ -4,25 +4,34 @@ import java.util.Scanner;
 
 public class Number6 {
     public static void main(String[] args) {
-        // 3글자마다 콤마를 추가한다.
-        // 다만 문자열은 맨 앞자리부터 시작하기 때문에,
-        // 전체 문자열 값을 받은후, (만약 5라면)
-        // 5/3을 하여 "," 하여 ,의 갯수를 찾은 후(1개)
-        // 
-        Scanner sc = new Scanner(System.in);
-        String x = sc.nextLine();
-        int num = x.length();
-        // int tempt = 1;
-        // while(num>0){
-        //     if(tempt == 3){
-        //         x = 
-        //     }else if(tempt == 6){
 
-        //     }
-        // } 
-    }
 
-    static void value(String n){
+        Scanner scan = new Scanner(System.in);
+        String n;
+        n = scan.nextLine();
+
+        System.out.println(get(n));
         
     }
+
+    
+
+    static String get(String n) {
+        String Back = "";
+        int i = n.length()-3;
+        if (n.indexOf(".") > -1) { // 소숫점이 들어갔을때,
+            n = n.substring(0, n.indexOf("."));  
+            Back = n.substring(n.indexOf("."), n.length()); // 끝문자열 그대로 출력
+            
+        }
+        while(i >0){
+            n = n.substring(0, i) + "," + n.substring(i,n.length());
+            // 먼저 0~-3 문자열까지 출력한 후
+            //  , 를 더하고 나머지 문자열을 출력한다
+            // 이 작업을 반복해준다.
+            i -= 3;
+        }
+        return n + Back; // 소숫점까지 리턴
+    }
+
 }
