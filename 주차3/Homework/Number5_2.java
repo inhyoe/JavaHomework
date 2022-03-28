@@ -1,4 +1,4 @@
-package 주차2.JavaHomework2;
+package 주차3.Homework;
 
 import java.util.Scanner;
 

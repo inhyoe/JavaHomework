@@ -1,4 +1,4 @@
-package 주차2.JavaHomework2;
+package 주차3.Homework;
 
 public class Number5_3 {
     public static void main(String[] args) {
