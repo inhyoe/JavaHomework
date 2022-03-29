@@ -1,4 +1,5 @@
-package 주차1.Homework;
+package JavaHomework.주차1.Homework;
+
 
 import java.util.Scanner;
 public class Number9 {
@@ -10,6 +11,7 @@ public class Number9 {
         String cal = scan.nextLine();
 
         System.out.print("숫자를 입력해주세요");
+
         int first = scan.nextInt();
 
         System.out.print("숫자를 입력해주세요");
@@ -30,6 +32,5 @@ public class Number9 {
             else
                 System.out.println("분모가 0입니다 제대로 입력해 주세요");
             
-        
     }    
 }

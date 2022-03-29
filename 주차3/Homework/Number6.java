@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Number6 {
     public static void main(String[] args) {
 
+
         Scanner scan = new Scanner(System.in);
         String n;
         n = scan.nextLine();
@@ -32,4 +33,5 @@ public class Number6 {
         }
         return n + Back; // 소숫점까지 리턴
     }
+
 }
