@@ -4,8 +4,8 @@ package 주차3.Homework;
 public class Number2 {
     public static void main(String[] args) {
         int sum = 0;
+        // int j = 1;
         for(int i=1; i<5000; i++ ){
-            
             boolean isSelf = true;
             for(int j=1; j<i; j++){
                 if(i == generator(j)){

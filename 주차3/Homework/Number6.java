@@ -26,9 +26,9 @@ public class Number6 {
         }
         while(i >0){
             n = n.substring(0, i) + "," + n.substring(i,n.length());
-            // 먼저 0~-3 문자열까지 출력한 후
+            // 먼저 0~i-3 문자열까지 출력한 후
             //  , 를 더하고 나머지 문자열을 출력한다
-            // 이 작업을 반복해준다.
+            // 이 작업을 반복해준다. 10,000,000
             i -= 3;
         }
         return n + Back; // 소숫점까지 리턴
