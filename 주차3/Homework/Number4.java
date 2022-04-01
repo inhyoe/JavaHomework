@@ -2,7 +2,7 @@ package 주차3.Homework;
 import java.util.Scanner;
 public class Number4 {
     static int y = -1; // 계속 증가할 수 넣어줌.
-    static double getInt(int n){
+    static int getInt(int n){
         
         String x = Integer.toString(n);
         if(n == 0)
@@ -10,7 +10,7 @@ public class Number4 {
         
         if(x.charAt(x.length()-1) == '1'){
             y++;
-            return Math.pow(2,y)+getInt(n/10);
+            return (int)Math.pow(2,y)+getInt(n/10);
             // 1일경우 자릿수만큼 y의 제곱을한다. 그리고 10을 나눈다.
         }
         else{
@@ -22,6 +22,6 @@ public class Number4 {
         int n;
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        System.out.println((int)getInt(n));
+        System.out.println(getInt(n));
     }
 }
