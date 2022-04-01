@@ -1,3 +1,5 @@
+package 주차4.Homework;
+
 
 
 public class Number3 {
