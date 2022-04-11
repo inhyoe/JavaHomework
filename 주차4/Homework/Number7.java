@@ -1,12 +1,14 @@
 package 주차4.Homework;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
 public class Number7 {
     public static void main(String[] args) {
-        int x[] = new int[100];
-        double y= 2;
-        for(int i =1; i<=100; i++){
-            y *= 2;
-        }
-        System.out.println(y);
+        BigInteger k = BigInteger.valueOf(2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2*2);
+
+        String x = k.toString();
+        System.out.println(x);
+        System.out.println(x.getClass().getName());
     }
 }

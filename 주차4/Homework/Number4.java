@@ -4,8 +4,9 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class Number4 {
     public static void main(String[] args) {
+        int i ,j;
         int arr[] = new int[10];
-        for(int i =0; i<10;i++){
+        for(i =0; i<10;i++){
             Scanner scan = new Scanner(System.in);
             System.out.print(i+1+"번째 숫자 입력");
             arr[i] = scan.nextInt();
@@ -16,8 +17,8 @@ public class Number4 {
         int back = 10;
         while(back <= 100){
             System.out.print(sum+"-"+ back +":");
-            for(int i =0; i<arr.length;i++)
-                if(arr[i]>=sum && back>=arr[i])
+            for(j =0; j<i;j++)
+                if(arr[j]>=sum && back>=arr[j])
                     System.out.print("*");
                 
             System.out.println("");
