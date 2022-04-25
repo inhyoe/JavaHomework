@@ -7,9 +7,8 @@ public class Number4 {
         int i ,j;
         int arr[] = new int[10];
         for(i =0; i<10;i++){
-            Scanner scan = new Scanner(System.in);
-            System.out.print(i+1+"번째 숫자 입력");
-            arr[i] = scan.nextInt();
+            arr[i] = (int)(Math.random()*100);
+            
         }
         //for문을 돌려서 -> 
         //만약 [1,2,10,20,30,50,48,69,39,20]

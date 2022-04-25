@@ -1,0 +1,29 @@
+package 주차4.Homework;
+
+public class tst2 {
+    public static void main(String[] args) {
+        int[][] arr = new int[5][];
+        int i,j;
+        for(i = 0; i<arr.length; i++){
+            arr[i] = new int[i+1];
+        }
+
+        for(i = 0; i < arr.length; i++){
+            for(j=0; j<arr[i].length;j++){
+                arr[i][j] = j+1;
+                System.out.print(arr[i][j]);}
+                System.out.println();
+        }
+
+        for(i=0; i< arr.length; i++){
+            for(j=0; j<arr[i].length;j++){
+                if(j==0 || i == j)
+                    arr[i][i] = 1;
+                else
+                    arr[i][j] = arr[i-1][j] + arr[i-1][j-1];
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "[sql]": {
+        // adpyke.vscode-sql-formatter 익스텐션을 통해 포맷팅하도록 설정 
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    // sql 키워드(select, from 등)를 대문자로 자동 치환 
+    "sql-formatter.uppercase": true,
+    // sql 쿼리와 쿼리 사이의 줄간격 
+    "sql-formatter.linesBetweenQueries": 2,
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CarTest",
+            "request": "launch",
+            "mainClass": "주차5.실습.CarTest",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number7_1",
+            "request": "launch",
+            "mainClass": "주차4.Homework.Number7_1",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Answer2tet",
+            "request": "launch",
+            "mainClass": "주차3.Homework.Answer2tet",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch 벡터의내적",
+            "request": "launch",
+            "mainClass": "주차5.실습.벡터의내적",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Overloading",
+            "request": "launch",
+            "mainClass": "주차5.실습.Overloading",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetBox2",
+            "request": "launch",
+            "mainClass": "주차5.수업.GetBox2",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetBox",
+            "request": "launch",
+            "mainClass": "주차5.수업.GetBox",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number4",
+            "request": "launch",
+            "mainClass": "주차4.Homework.Number4",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number5",
+            "request": "launch",
+            "mainClass": "주차4.Homework.Number5",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number3",
+            "request": "launch",
+            "mainClass": "주차4.Homework.Number3",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch car",
+            "request": "launch",
+            "mainClass": "주차5.수업.car",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetCar",
+            "request": "launch",
+            "mainClass": "주차5.수업.GetCar",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch tst2",
+            "request": "launch",
+            "mainClass": "주차4.Homework.tst2",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num15596",
+            "request": "launch",
+            "mainClass": "BeakJoun.function.Num15596",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num11022",
+            "request": "launch",
+            "mainClass": "BeakJoun.if_else.Num11022",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num2741",
+            "request": "launch",
+            "mainClass": "BeakJoun.if_else.Num2741",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.my.first.class",
+            "projectName": "dummyproject"
+        }
+    ]
+}

@@ -10,14 +10,18 @@ public class Answer2tet {
         System.out.println(sum);
     }
 
+    
+
     static boolean isSelf(int n){
         boolean isSelf = true;
         for(int j =1; j<=n; j++){
             if( n == generator(j)){
                 isSelf = false;
+                // return false
             }
         }
         return isSelf;
+        //return true
     }
 
     static int generator(int n){

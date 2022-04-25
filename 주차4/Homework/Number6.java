@@ -17,6 +17,9 @@ public class Number6 {
 
         char[] hexa = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
                 'a', 'b', 'c', 'd', 'e', 'f' }; // 15까지 16진수로 표현, 10이상은 알파벳으로 표기
+        
+                // index를 활용해서 반복문 하나 지워보기
+
 
         for (i = 0; i < input.length(); i++) { // input.length() == 문자열의 길이만큼 돌림 인풋한 글자수 만큼 문자열을 돌림
             for (j = 0; j < hexa.length; j++) { // hexa.length == 문자의 길이만큼 돌림
