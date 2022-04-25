@@ -14,6 +14,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HW_02",
+            "request": "launch",
+            "mainClass": "주차5.숙제.HW_02",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch tst",
+            "request": "launch",
+            "mainClass": "주차5.숙제.tst",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch First",
+            "request": "launch",
+            "mainClass": "주차5.숙제.First",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
             "name": "Launch CarTest",
             "request": "launch",
             "mainClass": "주차5.실습.CarTest",
