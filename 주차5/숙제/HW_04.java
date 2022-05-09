@@ -1,5 +1,4 @@
 package 주차5.숙제;
-import java.nio.file.WatchEvent;
 import java.util.Scanner;
 
 public class HW_04 {
@@ -29,7 +28,7 @@ public class HW_04 {
 }
 
 class MyCalendar{
-    boolean isLeap(int y){
+    static boolean isLeap(int y){
         if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) 
 			return true;
 		 else 
@@ -138,7 +137,16 @@ class MyCalendar{
     }    
     return sum+day;
 } 
-
+    /* static int whatDay2(int y,int m, int d){
+        int date = (y-1) * 365 + d;
+        int[] monthD = {31,28,31,30,31,30,31,31,30,31,30,31};
+        for(int i=1; i<m; i++)
+            date += monthD[i -1];
+        for(int i = 1; i < y; i++)
+            if(isLeap(i)){
+                
+            }
+    } */
     int lastDate(int y,int m){
         int month = m;
         int year =y;

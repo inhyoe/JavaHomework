@@ -12,8 +12,7 @@ public class Number4 {
             y++;
             return (int)Math.pow(2,y)+getInt(n/10);
             // 1일경우 자릿수만큼 y의 제곱을한다. 그리고 10을 나눈다.
-        }
-        else{
+        }else{
             y++;
             return getInt(n/10);
         }

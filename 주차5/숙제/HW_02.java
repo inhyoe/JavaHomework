@@ -13,6 +13,8 @@ public class HW_02  {
     }
 }
 
+// 시험문제관련
+
 class Complex{
     private double r;
     private double i;
@@ -21,22 +23,24 @@ class Complex{
         this.i = i;
     }
     public Complex add(Complex c){
-        Complex c1 = new Complex(0,0);
-        c1.r = r + c1.r;
-        c1.i = i + c1.i;
-        return c1;
+        return new Complex(this.r+c.r,this.i+c.i);
     }
     public Complex mulComplex(Complex c) {
 		Complex c0 = new Complex(0,0);
 		c0.r = r * c.r - i * c.i;
 		c0.i = r * c.i + i * c.r;
-		return c0;
+		return new Complex(r*c.i+i*c.r,r*c.r-i*c.i);
 	}
     public double abs(){
         return Math.sqrt(r*r+i*i);
     }
     
     public String toString(){
-        return "(" + r + "+" + i +"i)";
+        if(i<0){
+            return String.format("%s%si", r,i);
+        }
+        else{
+            return String.format("%s+%si", r,i);
+        }
     }
 }

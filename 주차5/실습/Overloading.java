@@ -9,9 +9,9 @@ class Time{
         m = today.getMinutes(); 
         s = today.getSeconds(); 
     }
-    public int getH(){return h;}
-    public int getM(){return m;} // 접근자
-    public int gets(){return s;}
+    // public int getH(){return h;}
+    // public int getM(){return m;} // 접근자
+    // public int gets(){return s;}
     
     public void setH(int h){this.h = h;}
     public void setM(int m){this.m = m;}
@@ -32,6 +32,7 @@ class Time{
 public class Overloading {
     public static void main(String[] args) {
         Time time1 = new Time();
+        System.out.println(time1);
         Time time = new Time(11, 43, 9);
         System.out.println(time);
       

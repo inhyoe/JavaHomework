@@ -34,20 +34,21 @@ public class Number7 {
         }
         System.out.printf("%d>%d>%d",a,b,c);
         
-        if(a > b){
-            if(a>c)
-                if(b>c)
+        if(a > b){  // a > b
+            if(a>c) // a > c > b
+                if(b>c) // a > b > c
                 System.out.printf("%d>%d>%d",a,b,c);
-                else
-                    System.out.printf("%d>%d>%d",a,c,b);
-                    System.out.printf("%d>%d>%d",c,a,b);
-        }else{
+            else        // a > c > b
+                System.out.printf("%d>%d>%d",a,c,b);
+                System.out.printf("%d>%d>%d",c,a,b);
+
+        }else{      // b > a
             if(b>c)
                 if(a>c)
                 System.out.printf("%d>%d>%d",b,a,c);
                 else
                 System.out.printf("%d>%d>%d",b,c,a);
-            else
+            else      //c > b > a
             System.out.printf("%d>%d>%d",c,b,a);
         }
 

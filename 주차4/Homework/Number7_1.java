@@ -1,7 +1,5 @@
 package 주차4.Homework;
 
-import java.util.Arrays;
-
 public class Number7_1 {
     public static void main(String[] args) {
         int[] a = new int[31];

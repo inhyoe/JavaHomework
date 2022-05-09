@@ -8,10 +8,9 @@ public class Number4 {
         int arr[] = new int[10];
         for(i =0; i<10;i++){
             arr[i] = (int)(Math.random()*100);
-            
         }
         //for문을 돌려서 -> 
-        //만약 [1,2,10,20,30,50,48,69,39,20]
+
         int sum = 1;
         int back = 10;
         while(back <= 100){

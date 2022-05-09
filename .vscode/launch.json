@@ -14,6 +14,216 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RectangleTest1",
+            "request": "launch",
+            "mainClass": "RectangleTest1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectangleTest",
+            "request": "launch",
+            "mainClass": "RectangleTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShapeTest",
+            "request": "launch",
+            "mainClass": "ShapeTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch PersonTest",
+            "request": "launch",
+            "mainClass": "주차6.Homework.PersonTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "Test2",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW_04",
+            "request": "launch",
+            "mainClass": "주차5.숙제.HW_04",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "주차6.수업.Test2",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tst2",
+            "request": "launch",
+            "mainClass": "주차6.수업.Tst2",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShapeTest21",
+            "request": "launch",
+            "mainClass": "주차6.수업.ShapeTest21",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch 셰이프테스트",
+            "request": "launch",
+            "mainClass": "주차6.수업.셰이프테스트",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P21",
+            "request": "launch",
+            "mainClass": "주차6.수업.P21",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "주차6.수업.test1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number3",
+            "request": "launch",
+            "mainClass": "주차3.Homework.Number3",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number1",
+            "request": "launch",
+            "mainClass": "주차3.Homework.Number1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num1",
+            "request": "launch",
+            "mainClass": "주차3.Homework2.Num1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num2",
+            "request": "launch",
+            "mainClass": "주차2.JavaHome2.Num2",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num1",
+            "request": "launch",
+            "mainClass": "주차2.JavaHome2.Num1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number6_1",
+            "request": "launch",
+            "mainClass": "주차1.Homework.Number6_1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cylinder",
+            "request": "launch",
+            "mainClass": "주차6.Homework.Cylinder",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch 시험",
+            "request": "launch",
+            "mainClass": "주차6.수업.시험",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch 시험",
+            "request": "launch",
+            "mainClass": "주차6.수업.시험",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "주차6.수업.Test2",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "주차6.수업.Test",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNum2",
+            "request": "launch",
+            "mainClass": "주차2.트2.PrimeNum2",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number7",
+            "request": "launch",
+            "mainClass": "주차1.Homework.Number7",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW_04",
+            "request": "launch",
+            "mainClass": "주차5.숙제.HW_04",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW_03",
+            "request": "launch",
+            "mainClass": "주차5.숙제.HW_03",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW_01",
+            "request": "launch",
+            "mainClass": "주차5.숙제.HW_01",
+            "projectName": "JavaHomework_f02cda6b"
+        },
+        {
+            "type": "java",
             "name": "Launch HW_02",
             "request": "launch",
             "mainClass": "주차5.숙제.HW_02",
