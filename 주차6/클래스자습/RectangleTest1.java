@@ -1,4 +1,6 @@
-import javax.swing.event.SwingPropertyChangeSupport;
+package 주차6.클래스자습;
+
+
 
 public class RectangleTest1 {
     public static void main(String[] args) {

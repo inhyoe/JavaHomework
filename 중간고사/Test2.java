@@ -1,3 +1,4 @@
+package 중간고사;
 public class Test2 {
     public static void main(String[] args) {
         MyPow(3, -2);

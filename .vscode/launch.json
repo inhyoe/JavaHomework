@@ -14,6 +14,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkedListTest",
+            "request": "launch",
+            "mainClass": "LinkedListTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch WildCardTest",
+            "request": "launch",
+            "mainClass": "WildCardTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfList",
+            "request": "launch",
+            "mainClass": "SumOfList",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpcastingTest",
+            "request": "launch",
+            "mainClass": "주차6.수업.UpcastingTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1_1",
+            "request": "launch",
+            "mainClass": "Test1_1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
             "name": "Launch RectangleTest1",
             "request": "launch",
             "mainClass": "RectangleTest1",

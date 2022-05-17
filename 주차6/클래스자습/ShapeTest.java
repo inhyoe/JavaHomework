@@ -20,7 +20,7 @@ public class ShapeTest {
         Shape s1,s2;
 
         s1 = new Shape();
-        s2 = new RectangleTest();// 상향 형변환이 일어났다.    
+        s2 = new Triangle();// 상향 형변환이 일어났다.    
         s1.x = 10;
         s1.y = 10;
 

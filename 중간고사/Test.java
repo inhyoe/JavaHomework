@@ -1,3 +1,4 @@
+package 중간고사;
 public class Test {
     public static void main(String[] args) {
         Fraction f1 = new Fraction(1,2);
@@ -14,8 +15,8 @@ public class Test {
 }
 
 class Fraction{
-    private int ja;
-    private int mo;
+    int ja;
+    int mo;
 
     public void setJa(int ja) {
         this.ja = ja;
@@ -67,5 +68,6 @@ class Fraction{
         return String.format("%d/%d", ja,mo);
     }
 }
-
+// static과 non-static의 차이 : 필드의 사용 유무.
+// 인스턴스메소드 일반 메소드
 

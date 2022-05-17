@@ -8,11 +8,11 @@ public class PersonTest {
 
         p1.compareTo(p2);
         if(p1.compareTo(p2) == 1){
-            System.out.println(p1+"엥씨발");
+            System.out.println(p1);
         }else if(p1.compareTo(p2) == -1){
-            System.out.println(p2+"엥씨발");
+            System.out.println(p2);
         }else{
-            System.out.println(" 똑같음 엥씨발");
+            System.out.println(" 똑같음 ");
         }
     }
 }

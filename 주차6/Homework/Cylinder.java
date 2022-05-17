@@ -28,14 +28,14 @@ public class Cylinder extends Circle{
     private double height;
 
     Cylinder(){
-
+        //super.~~ 쓸때는 이름이 충돌할 때 만 씀.
     }
     Cylinder(double radius){
-        setRadius(radius);
+        super(radius);
     }
     Cylinder(double radius,double height){
+        super(radius);
         setHeight(height);
-        setRadius(radius);
     }
     public void setHeight(double height) {
         this.height = height;
