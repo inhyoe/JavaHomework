@@ -1,5 +1,3 @@
-package Generic;
-
 class Box<T>{
     private T data;
     public void setData(T data) {

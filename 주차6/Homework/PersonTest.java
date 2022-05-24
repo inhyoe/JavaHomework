@@ -1,20 +1,20 @@
 package Homework;
 
+import java.util.Arrays;
+
 public class PersonTest {
     
     public static void main(String[] args) {
         Person p1 = new Person("이동현", 172);
         Person p2 = new Person("오희재", 172);
-
-        p1.compareTo(p2);
-        if(p1.compareTo(p2) == 1){
-            System.out.println(p1);
-        }else if(p1.compareTo(p2) == -1){
-            System.out.println(p2);
-        }else{
-            System.out.println(" 똑같음 ");
-        }
+        Person[] p3 = new Person[3];
+        p3[0] = new Person("이동현", 172);
+        p3[1] = new Person("오희재", 172);
+        p3[2] = new Person("김종원", 176);
+        p1.getMaximum(p3);
+        
     }
+    
 }
 
 
@@ -45,4 +45,11 @@ class Person implements Comparable<Person>{
     public String toString() {
         return String.format("가장 키가 큰 사람은 %s", this.name);
     }
-}
+
+    public String getMaximum(Person[] array){
+        Person[] temp = Arrays.copyOf(array, array.length);
+        Arrays.sort(temp);
+        System.out.println(Arrays.toString(temp));
+        return temp[temp.length-1].name;
+    }
+}  

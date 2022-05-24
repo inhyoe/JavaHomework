@@ -14,6 +14,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Number3",
+            "request": "launch",
+            "mainClass": "Number3",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number2",
+            "request": "launch",
+            "mainClass": "Number2",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number1",
+            "request": "launch",
+            "mainClass": "Number1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P25",
+            "request": "launch",
+            "mainClass": "P25",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P23",
+            "request": "launch",
+            "mainClass": "P23",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P22",
+            "request": "launch",
+            "mainClass": "P22",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericMethod",
+            "request": "launch",
+            "mainClass": "GenericMethod",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P19",
+            "request": "launch",
+            "mainClass": "P19",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackTest",
+            "request": "launch",
+            "mainClass": "StackTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intersection1",
+            "request": "launch",
+            "mainClass": "Intersection1",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch PersonTest",
+            "request": "launch",
+            "mainClass": "Homework.PersonTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDupplication",
+            "request": "launch",
+            "mainClass": "FindDupplication",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetTest",
+            "request": "launch",
+            "mainClass": "SetTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch AsList",
+            "request": "launch",
+            "mainClass": "AsList",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkedListTest",
             "request": "launch",
             "mainClass": "LinkedListTest",

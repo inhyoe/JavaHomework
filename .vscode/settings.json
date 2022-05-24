@@ -1,7 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "주차7/StackQueue",
+        "주차7/SetTest",
+        "주차7/Myprac.java",
         "주차7/Generic",
+        "주차7/ArrayList",
         "주차6",
-        "주차7/ArrayList"
-    ]
+        "주차7/Homework"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }

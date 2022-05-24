@@ -1,4 +1,4 @@
-package Generic;
+
 // p.24
 class MyArrayAlg {
 	public static <T> T getLast(T[] a) {
