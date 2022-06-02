@@ -14,6 +14,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch P_25_MyArrTest",
+            "request": "launch",
+            "mainClass": "P_25_MyArrTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
             "name": "Launch Sort123",
             "request": "launch",
             "mainClass": "Sort123",

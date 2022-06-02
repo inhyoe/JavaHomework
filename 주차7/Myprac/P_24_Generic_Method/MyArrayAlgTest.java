@@ -12,4 +12,7 @@ class MyArrayAlg{
     public static <T> T getLast(T[] a){
         return a[a.length -1];
     }
+
+    public static void swap(String[] language, int i, int j) {
+    }
 }
