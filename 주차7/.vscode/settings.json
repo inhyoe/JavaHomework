@@ -1,8 +1,11 @@
 {
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m",
     "java.project.sourcePaths": [
+        "Search_P62",
+        "P_22_Multile_Type_Generic",
+        "P_17_Generic",
         "Collection",
         "ArrayList",
-        "Search_P62"
+        "P_24_Generic_Method"
     ]
 }
