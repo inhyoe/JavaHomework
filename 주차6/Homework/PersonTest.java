@@ -1,5 +1,3 @@
-package Homework;
-
 import java.util.Arrays;
 
 public class PersonTest {
@@ -11,6 +9,11 @@ public class PersonTest {
         p3[0] = new Person("이동현", 172);
         p3[1] = new Person("오희재", 172);
         p3[2] = new Person("김종원", 176);
+
+        SecondPerson s1 = new SecondPerson("야동현",230);
+
+        
+        System.out.println("상속 비교 : "+p1.compareTo(s1));
         p1.getMaximum(p3);
         
     }
@@ -21,7 +24,9 @@ public class PersonTest {
 class Person implements Comparable<Person>{
     private String name;
     private int height;
+    Person(){
 
+    }
     Person(String name, int height){
         this.name = name;
         this.height = height;
@@ -53,3 +58,13 @@ class Person implements Comparable<Person>{
         return temp[temp.length-1].name;
     }
 }  
+
+class SecondPerson extends Person{
+    private String name;
+    private int height;
+
+    SecondPerson(String name, int height){
+        this.name = name;
+        this.height = height;
+    }
+}

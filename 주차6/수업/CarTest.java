@@ -1,4 +1,4 @@
-package 주차6.수업;
+package 수업;
 
 class Car{
     private String model;

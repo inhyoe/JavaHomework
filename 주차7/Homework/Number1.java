@@ -24,15 +24,41 @@ public class Number1 {
 
 class MyMath <T>{
   List<T> list = new ArrayList<>();
-/*   private T[] a;
-
-  public void setA(T[] a) {
-      this.a = a;
-  }
- */
   public void add(T item){
     list.add(item);
   }
+
+  public int getAverage(){
+    int sum = 0;
+    int avg = 0;
+    for(int i =0; i<list.size()-1; i++){
+      sum = sum + (Integer)list.get(i);
+    }
+    avg = sum/list.size();
+    return avg;
+  }
+
+  public double getAverage1(){
+    double sum = 0;
+    double avg = 0;
+    for(int i =0; i<list.size()-1; i++){
+      sum = sum + (Double)list.get(i);
+    }
+    
+    
+    avg = sum/list.size();
+    return avg;
+  }
+
+
+  /*   private T[] a;
+  
+    public void setA(T[] a) {
+        this.a = a;
+    }
+   */
+
+
   // public <T> T mygener(){
   //   T sum = 0;
   //   T avg = 0;
@@ -43,22 +69,4 @@ class MyMath <T>{
   //   return avg;
     
   // }
-  public int getAverage(){
-    int sum = 0;
-    int avg = 0;
-    for(int i =0; i<list.size()-1; i++){
-      sum = sum + (Integer)list.get(i);
-    }
-    avg = sum/list.size();
-    return avg;
-  }
-  public double getAverage1(){
-    double sum = 0;
-    double avg = 0;
-    for(int i =0; i<list.size()-1; i++){
-      sum = sum + (Double)list.get(i);
-    }
-    avg = sum/list.size();
-    return avg;
-  }
 } 

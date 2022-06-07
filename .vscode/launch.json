@@ -14,6 +14,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch P_19_하향형변환_자바",
+            "request": "launch",
+            "mainClass": "myPrac.P_19_하향형변환_자바",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P_13_다형성",
+            "request": "launch",
+            "mainClass": "myPrac.P_13_다형성",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
+            "name": "Launch P_9_상속",
+            "request": "launch",
+            "mainClass": "myPrac.P_9_상속",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
             "name": "Launch P_25_MyArrTest",
             "request": "launch",
             "mainClass": "P_25_MyArrTest",

@@ -1,29 +1,6 @@
 package Homework;
 
-class TestCylinder{
 
-}
-
-class Circle{
-    private double radius;
-    private String color;
-
-    Circle(){
-
-    }
-    Circle(double radius){
-        this.radius = radius;
-    }
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-    public double getRadius() {
-        return radius;
-    }
-    public double getArea(){
-        return radius *radius * 3.14;
-    }
-}
 public class Cylinder extends Circle{
     private double height;
 
@@ -61,5 +38,26 @@ public class Cylinder extends Circle{
         double Area = obj2.getArea();
         double Radius = obj2.getRadius();
         System.out.printf("Volume : %s  \n Height: %s \n Area: %s \n Radius: %s", Volume,Height,Area,Radius);
+    }
+}
+
+class Circle{
+    private double radius;
+    private String color;
+
+    Circle(){
+
+    }
+    Circle(double radius){
+        this.radius = radius;
+    }
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+    public double getRadius() {
+        return radius;
+    }
+    public double getArea(){
+        return radius *radius * 3.14;
     }
 }
