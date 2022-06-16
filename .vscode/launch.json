@@ -14,6 +14,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TimeTest",
+            "request": "launch",
+            "mainClass": "시험.TimeTest",
+            "projectName": "JavaHomework_3024e24"
+        },
+        {
+            "type": "java",
             "name": "Launch P_19_하향형변환_자바",
             "request": "launch",
             "mainClass": "myPrac.P_19_하향형변환_자바",

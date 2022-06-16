@@ -1,11 +1,9 @@
-package myPrac;
-
 public class P_19_하향형변환_자바 {
     public static void main(String arg[]) {
 		Shape2 s1, s2, s3, s4;
-  
+		Rectangle2 r1 ;
+		r1 = (Rectangle2)s2;
 		s1 = new Shape2();
-		s2 = new Rectangle2();
 		s3 = new Triangle2();
 		s4 = new Circle2();
   

@@ -1,3 +1,5 @@
+package Num1;
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,10 +8,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Number123 {
+public class Num8_1_Homework {
     public static void main(String[] args) throws IOException {
-        Scanner in = new Scanner(new FileReader("/Users/changhoon/Desktop/레포지토리/2학년자바/JavaHomework/주차8/Homework/input.txt"));
-        PrintWriter out = new PrintWriter(new FileWriter("/Users/changhoon/Desktop/레포지토리/2학년자바/JavaHomework/주차8/Homework/input2.txt"));
+        Scanner in = new Scanner(new FileReader("./JVH/Num1/input.txt"));
+        PrintWriter out = new PrintWriter(new FileWriter("./JVH/Num1/output2.txt"));
         ArrayList<Integer> list = new ArrayList<Integer>(); // in 값을 저장하고 정렬
 
         try {

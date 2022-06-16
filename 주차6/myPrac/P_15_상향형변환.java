@@ -1,11 +1,9 @@
-package myPrac;
-
 public class P_15_상향형변환 {
     public static void main(String[] args) {
         Shape s = new Rectangle();
         Rectangle r = new Rectangle();
 
-        Rectangle r1;
+        Rectangle r1 = (Rectangle)s;
         Shape s1;
 
         s1 =new Rectangle();

@@ -1,5 +1,3 @@
-package myPrac;
-
 public class P_13_다형성 {
     public static void main(String[] args) {
         Circle circle = new Circle();

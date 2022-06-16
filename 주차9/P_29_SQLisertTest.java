@@ -3,7 +3,8 @@ import java.sql.Connection;
 
 public class P_29_SQLisertTest {
     public static void main(String[] args) {
-        addBook("Artificial Intellegnce", "Addison Wesley", "2002", 39000);
+        // addBook("Artificial Intellegnce", "Addison Wesley", "2002", 39000);
+        deleteBook("Artificial Intellegnce", "Addison Wesley", "2002", 39000);
     }
 
     private static void addBook(String title, String publisher, String year, int price) {
@@ -29,9 +30,8 @@ public class P_29_SQLisertTest {
         Connection con = makeConnection();
         try {
             Statement stmt = con.createStatement();
-            String s = "Delete from (title, publisher, year, price) VALUES ";
-            s += "('" + title + "','" + publisher + "','" + year + "','"
-                    + price + "')";
+            String s = "Delete from books where title = ";
+            s += "'" + title + "'";
             System.out.println(s);
             int i = stmt.executeUpdate(s); /* 성공 실패를 나타냄. */
             System.out.println("i 는 :"+i);
@@ -40,7 +40,7 @@ public class P_29_SQLisertTest {
             else
                 System.out.println("레코드 추가 실패");
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            System.out.println("에러의 내용은 : "+e.getMessage());
             System.exit(0);
         }
     }
